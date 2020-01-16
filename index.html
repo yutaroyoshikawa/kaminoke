@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./main.css">
+  <title>ANGFA BABY</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-container">
+      <div class="menu" id="menu">
+        <div></div>
+        <div></div>
+      </div>
+      <a href="#conversion" id="buy">
+        <button class="buy">購入</button>
+      </a>
+    </div>
+    <div class="link-container">
+      <ul>
+        <li>
+          <a href="#top">トップ</a>
+        </li>
+        <li>
+          <a href="#aging">スキンケア</a>
+        </li>
+        <li>
+          <a href="#wash">天然成分</a>
+        </li>
+        <li>
+          <a href="#free">６つのフリー</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="back top-back" id="topBack"></div>
+  <div class="back conversion-back" id="conversionBack"></div>
+  <div class="back aging-back" id="agingBack"></div>
+  <div class="back wash-back" id="washBack"></div>
+  <div class="back free-back" id="freeBack"></div>
+  <main>
+    <section class="top" id="top" style="display: none;">
+      <h1>0歳から洗うエイジングケア</h1>
+      <div class="container">
+        <figure>
+          <img src="./images/product.png" alt="商品イメージ">
+        </figure>
+        <nav class="nav-container" role="list">
+          <ul>
+            <li>
+              <a href="#aging">
+                <button class="bordered-link">スキンケア</button>
+              </a>
+            </li>
+            <li>
+              <a href="#wash">
+                <button class="bordered-link">天然成分</button>
+              </a>
+            </li>
+            <li>
+              <a href="#free">
+                <button class="bordered-link">６つのフリー</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="conversion" id="conversion" style="display: none;">
+      <div class="product-image-container">
+        <h2>ANGFA BABY</h2>
+        <figure>
+          <img src="./images/product.png" alt="商品イメージ"">
+        </figure>
+      </div>
+      <div>
+        <button class=" bordered-link">購入</button>
+          <p class="price">¥1,884</p>
+          <ul>
+            <li>化粧品</li>
+            <li>300ml</li>
+            <li>天然オレンジブレンドのほのかな香り</li>
+          </ul>
+      </div>
+    </section>
+    <section class="aging" id="aging" style="display: none;">
+      <div class="explan">
+        <h2>生まれた時からエイジングは始まっています</h2>
+        <p>老化は、ある年齢になったら突然始まるものではなく、生まれた瞬間から始まっているのです。ママがしっかりケアをしてあげることでベビーピュアスキンがつづきます。</p>
+      </div>
+    </section>
+    <section class="wash" id="wash" style="display: none;">
+      <div class="container">
+        <h2>優しく洗う</h2>
+        <div>
+          <p><em>７</em>つの<em>天然成分</em>がデリケートなお肌を守り、<wbr/>将来の美肌へと導きます。</p>
+            <div class="item-container">
+              <div class="upper">
+                <div>
+                  <div class="wash-item"></div>
+                  <span>ツボクサ</span>
+                </div>
+                <div>
+                  <div class="wash-item"></div>
+                  <span>カンゾウ</span>
+                </div>
+                <div>
+                  <div class="wash-item"></div>
+                  <span>イタドリ根</span>
+                </div>
+                <div>
+                  <div class="wash-item"></div>
+                  <span>カミツレ花</span>
+                </div>
+              </div>
+              <div class="lower">
+                <div>
+                  <div class="wash-item"></div>
+                  <span>オウゴン</span>
+                </div>
+                <div>
+                  <div class="wash-item"></div>
+                  <span>ローズマリー葉</span>
+                </div>
+                <div>
+                  <div class="wash-item"></div>
+                  <span>チャ葉</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="free" id="free" style="display: none;">
+      <div class="title-container">
+        <h2>６つのフリー</h2>
+        <h3 class="item-title parapen" id="parapen">パラペン</h3>
+        <h3 class="item-title feno" id="feno">フェノキシエタノール</h3>
+        <h3 class="item-title seki" id="seki">石油系界面活性剤</h3>
+        <h3 class="item-title siri" id="siri">シリコン</h3>
+        <h3 class="item-title gouchaku" id="gouchaku">合成着色料</h3>
+        <h3 class="item-title goukou" id="goukou">合成香料</h3>
+      </div>
+      <div class="free-item" id="freeItem"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Yutaro Yoshikawa</p>
+  </footer>
+  <script defer src="./index.js"></script>
+</body>
+
+</html>
